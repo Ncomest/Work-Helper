@@ -1,7 +1,8 @@
+let sectionBlocks = document.querySelectorAll('.section-block');
 
-
-function toggleActive(sectionBlock) {
+sectionBlocks.forEach(function(sectionBlock) {
+  sectionBlock.addEventListener('click', function() {
     let insideList = sectionBlock.querySelector('.inside-list');
     insideList.classList.toggle('active');
-  }
-  
+  });
+});
