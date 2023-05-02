@@ -35,11 +35,12 @@ a:hover {
 }
 
 .inside-list {
+    display: none;
     cursor: pointer;
     padding-top: 1em;
 }
 
 .active {
-    display: none;
+    display: block;
 }
 
