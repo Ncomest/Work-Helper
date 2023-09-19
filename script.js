@@ -7,8 +7,8 @@ sectionBlocks.forEach(function (sectionBlock) {
 
   let arrow = document.querySelector(".section-block-text");
 
-  arrow.textContent === "ФВ выпечка: ▼"
-   ? (arrow.textContent = "ФВ выпечка: ▲")
-   : (arrow.textContent = "ФВ выпечка: ▼");
+  arrow.textContent === "ФВ выпечка (Круассаны): ▼"
+   ? (arrow.textContent = "ФВ выпечка (Круассаны): ▲")
+   : (arrow.textContent = "ФВ выпечка (Круассаны): ▼");
  });
 });
